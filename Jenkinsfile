@@ -9,7 +9,7 @@ pipeline
             {
                 script
                 {
-                    def nombre = "Gustavo"
+                    def nombre = "César"
                     println nombre
                 }
             }
@@ -21,7 +21,7 @@ pipeline
             {
                 script
                 {
-                    def apellido = "Vargas"
+                    def apellido = "Jiménez López"
                     println apellido
                 }
             }
