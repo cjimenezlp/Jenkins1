@@ -9,7 +9,7 @@ pipeline
             {
                 script
                 {
-                    def nombre = "C&eacute;sar"
+                    def nombre = "C&eaacute;sar"
                     println nombre
                 }
             }
