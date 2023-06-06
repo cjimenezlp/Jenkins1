@@ -27,15 +27,6 @@ pipeline
             }
         }
         
-        stage("Nombre y apellido")
-        {
-            steps
-            {
-                script
-                {
-                    println nombre + " " + apellido
-                }
-            }
-        }
+       
     }
 }
