@@ -3,30 +3,21 @@ pipeline
     agent any
     stages
     {
-        stage("Nombre")
+        
+		stage("inter")
         {
+            
             steps
             {
+                
                 script
                 {
-                    def nombre = "C&eaacute;sar"
-                    println nombre
+					cadena = "MI artista favotito es Fito Paez, lo esccuho de sde que era joven,+ "\n"+ canciones como Giros, Mariposa Technicolor, Brillante sobre el MIC + "\n"+ son unas de mis canciones preferidas"
+					writeFile(file: "salida.txt", text: cadena)
                 }
             }
             
         }
-        stage("Apellido")
-        {
-            steps
-            {
-                script
-                {
-                    def apellido = "Jimenez"
-                    println apellido
-                }
-            }
-        }
         
-       
     }
 }
